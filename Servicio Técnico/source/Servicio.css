@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+
+header {
+ background: linear-gradient(to right, #4ea5ec31, #4a9ee44f),url(../img/tec-nivel-superior.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 600px;
+
+}
+.hero_nav{
+    text-align: right;
+    margin-top: -170px;
+    
+}
+.hero_a {
+    text-decoration: none;
+    font-size: 24px;
+    color:white;
+    margin: 83px ;
+    display: inline-block;
+    border: solid white;
+    padding: 4px;
+}
+
+.logo{
+    position: relative;
+    display: inline-block;
+    height: 100px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: -8px;
+      
+}
+.hero_wave {
+    margin-top: 100px;
+}
+.textos{
+    text-align: center;
+    margin-top: 170px;
+    color: black;
+    font-size: 23px;
+}
+
+.fab{
+    font-size: 30px;
+     color: white;
+     border-radius: 50%;
+     padding: 5px;
+}
+.img_marcas{
+    position: relative;
+    margin-top: -70px;
+    margin-left: 50%;
+    height: 250px;
+    
+}
+.fas{
+    font-size: 25px;
+    color:white;
+    padding: 4px;
+}
+
+.honores{
+    height: 600px;
+    background-image: url(../img/calidad.jpg);
+    background-repeat: no-repeat;
+    background-position: center;   
+    background-size: cover; 
+
+}
+.honores{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    padding: 90px;
+}
+.honores i{
+    font-size: 60px;
+    padding-left: 240px;
+    color: whitesmoke;
+    margin-top: 20px;
+    
+}
+.texto__sobre{
+    text-align: center;
+    display: inline-block;
+   
+}
+.texto__honor{
+    color: white;
+    text-align: center ;
+    margin-left: 200px;
+    font-size: 18px ;
+}
+.texto_propuesta{
+      margin-top: -250px;
+      text-align: center;
+      color: white;
+      font-size: 25px;
+      text-shadow: rgba(0, 0, 0, 0.5);
+}
+.texto_propuesta i{
+    color: rgb(7, 160, 248);
+}
+
+.pie{
+    margin-top: 250px;
+}
+.recuadros{
+   display: flex;
+}
+.img_cua{
+    height: 300px;
+    width: 100%;
+}
+.textos_pie{
+    margin-top: -35px;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+.botones_pie{
+    background-color: black;
+    text-align: center;
+    
+}
+.btn_n{
+    background-color: rgb(64, 219, 64);
+    color: whitesmoke;
+    height: 70px;
+    margin-right:40% ;
+    font-size: 20px;
+    padding: 10px;
+    border: solid white;
+    cursor: pointer;
+}
+.btn_n:hover{
+    background-color: brown;
+}
+.btn_E:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+.btn_E{
+    background-color: rgb(64, 219, 64);
+    color: whitesmoke;
+    height: 70px;
+    font-size: 20px;
+    padding: 10px;
+    border: solid white;
+}
+.marcas{
+    text-align: left;
+}
+.marcas .fas{
+    color: green;
+}
+.mar{
+    width: 800px;
+    height: 300px;
+    margin-top: -170px;
+}
+.tex_ma{
+    margin-left: 900px;
+    margin-top: 100px;
+}
+
+.redes{
+    height: 70px;
+    background-color: black;
+    text-align: center;
+}
+.redes .fab{
+    font-size: 50px;
+    margin-left: 100px;
+}

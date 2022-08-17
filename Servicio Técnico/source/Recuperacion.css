@@ -1,0 +1,76 @@
+body {
+    background-image: url(../img/sigmund-_dJCBtdUu74-unsplash.jpg);
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.login__box{
+    width: 320px;
+    height:420px;
+    background: #000;
+    color: #fff;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+.login__box .Demur{
+     width: 100px;
+     height: 100px;   
+     border-radius: 50%;
+     position: absolute;
+     top: -50px;
+     left:120px;
+    
+}
+.login__box h1{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.login__box label{
+    margin-top: 20px;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login__box input{
+    width: 100%;
+    margin-bottom: 20px; ;
+}
+.login__box input[type="text"],
+.login__box input[type="password"]{
+    border:none;
+    border-bottom: 1px solid #fff ;
+    background: transparent;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+ }
+ .login__box input[type="submit"]{
+     border: none;
+     outline: none;
+     height: 40px;
+     background: rgba(48, 48, 247, 0.877) ;
+     color: white;
+     font-size: 18px; 
+     border-radius: 20px ;
+ }
+ .login__box a{
+     text-decoration: none;
+     font-size: 15px;
+     line-height: 20px;
+     color: darkgrey;
+ }
+ .login__box a:hover{
+     color:white;
+ }

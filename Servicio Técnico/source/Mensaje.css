@@ -1,0 +1,8 @@
+.mensaje{
+    color: red;
+    margin-top: 700px;
+    margin-left: 33%;
+    border: solid white;
+    background-color: black;
+    display: inline-block;
+}
